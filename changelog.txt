@@ -1,0 +1,21 @@
+『 Redmi-10A GPU Unlock Rage 』
+
+# Changelog
+
+## v1.0.0 – Rage (Anti Override Engine)
+
+- Rewritten GPU locking mechanism
+- Dynamic MAX OPP auto-detection from /proc/gpufreq
+- Forced min_freq = max_freq (devfreq method)
+- Forced governor to performance
+- Aggressive DVFS margin boost (GED layer)
+- GPU idle state disabled
+- CPU assist set to performance governor
+- Scheduler boost enabled
+- Anti-override watchdog loop (reapply every 5 seconds)
+- Removed system.prop for cleaner kernel-level control
+- No thermal service modification
+- No vendor file replacement
+- No PowerHAL interference
+- Fully compatible with Thermal Breaker Miyabi Core
+- Designed for Android 13 (64-bit)

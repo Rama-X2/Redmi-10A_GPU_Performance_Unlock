@@ -1,0 +1,7 @@
+id=Redmi-10A_GPU_Performance_Unlock
+name=Redmi-10A GPU Performance Unlock
+version=v1.0.0
+versionCode=100
+author=Rama-X2
+description=Force GPU max OPP + Anti Override for Helio G25.
+updateJson=https://raw.githubusercontent.com/Rama-X2/Redmi-10A_GPU_Performance_Unlock/main/update.json
